@@ -33,6 +33,9 @@ header {
   background-color: var(--destaque);
   color: var(--texto);
   padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 nav#menu > ul {
   display: flex;
